@@ -8,6 +8,7 @@ player_y = 10;
 
 var player_object="";
 
+var block_image_object = "";
 
 function player_update()
 {
@@ -20,6 +21,7 @@ function player_update()
         top:player_y,
         left:player_x
         });
+        canvas.add(player_object);
     });
 }
 
